@@ -64,3 +64,9 @@ PRODUCT_BRAND := Android
 PRODUCT_NAME := aosp_sargo
 PRODUCT_DEVICE := sargo
 PRODUCT_MODEL := Pixel 3a
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=sargo \
+    PRIVATE_BUILD_DESC="sargo-user 11 RQ2A.210505.002 7246365 release-keys"
+
+BUILD_FINGERPRINT := google/sargo/sargo:11/RQ2A.210505.002/7246365:user/release-keys

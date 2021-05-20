@@ -64,3 +64,9 @@ PRODUCT_BRAND := Android
 PRODUCT_NAME := aosp_bonito
 PRODUCT_DEVICE := bonito
 PRODUCT_MODEL := Pixel 3a XL
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=bonito \
+    PRIVATE_BUILD_DESC="bonito-user 11 RQ2A.210505.002 7246365 release-keys"
+
+BUILD_FINGERPRINT := google/bonito/bonito:11/RQ2A.210505.002/7246365:user/release-keys
